@@ -23,3 +23,7 @@ Os próximos passos envolvem a utilização de CSS para trazer harmonização gr
 - Figma
 
 
+# Segue uma foto de como vai ficar nosso projeto 
+
+
+<img src="https://github.com/lypekaique/Projeto_Dupla_05/blob/main/IMG/image.png" alt="Texto Alternativo">
