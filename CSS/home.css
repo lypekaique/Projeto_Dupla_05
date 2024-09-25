@@ -14,28 +14,48 @@ body {
 }
 
 h1 {
-  font-weight: 800;
-  font-style: italic;
-  font-size: 50px;
-  color: #fff;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 50px;
+    color: #fff;
 }
-h1:first-child {
-  font-weight: 800;
-  font-size: 80px;
+
+.h1-title {
+    margin-top: 10%;
+      font-weight: 800;
+      align-items: flex-start;
+      width: 80%;
+      display: flex;
+      justify-content: flex-start;
+}
+.p-title{
+    
+      align-items: flex-start;
+      width: 60%;
+      display: flex;
+      justify-content: flex-start;
+      font-size: 20px;
+      font-style: oblique;
+      font-weight: 100;
 }
 p {
-  font-size: 20px;
+    font-size: 20px;
   color: #fff;
   font-style: oblique;
   font-weight: 100;
 }
 
-button {
+.button-header {
   background-color: #003366;
   border-radius: 1em;
   min-width: 14em;
   min-height: 4em;
-  margin: 2px;
+  margin-bottom: 5%;
+  justify-items: end;
+  align-items: end;
+  margin-left: 70%;
+  margin-top: 1rem;
+  
 
   font-weight: 900;
   font-style: oblique;
@@ -74,4 +94,38 @@ a {
   font-style: oblique;
   font-weight: 300;
   font-size: 25px;
+}
+
+.section-header{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: -14%;
+}
+
+.section-one{ 
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding-top: -100%; */
+    
+    
+} 
+
+.title-one{
+    width: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size:70px;
+    padding-right: 5%;
+    
+}
+
+.image-terra{
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: -40%;
+
+    margin-left: 50%;
+    width: 50%;
+    height: 50%;
 }
