@@ -128,7 +128,7 @@ a {
 .image-terra {
   align-items: flex-end;
   justify-content: flex-end;
-  margin-top: -40%;
+  margin-top: -45%;
 
   margin-left: 50%;
   width: 50%;
@@ -139,7 +139,7 @@ a {
   font-style: initial;
   font-size: 800;
   font-weight: 300;
-  margin-top: -15%;
+  margin-top: -10%;
   margin-bottom: 10%;
 }
 
@@ -163,53 +163,50 @@ a {
   border: inset 5px rgba(255, 255, 255, 0.229);
 }
 
-
-.section-three{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 5px;
-    width: 100%;
-    
-    
-}
-.title-section-two{
-    align-items: flex-start;
-    justify-content: start;
-    display: flex;
-    font-size: 80px;
-    font-style: italic;
-    font-weight: 700;
-    width: 100%;
-    margin-left: 3%;
-    margin-bottom: -50%;
+.section-three {
+  grid-column: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding-bottom: 7%;
 }
 
-.paragrafo-section-two{
-   
-     width: 28%;
+.title-section-two {
+  align-items: flex-start;
+  justify-content: start;
+  display: flex;
+  font-size: 100px; 
+  font-style: italic;
+  font-weight: 900; 
+  width: 100%;
+  margin-left: 10%;
+  
+}
+
+.paragrafo-section-two {
+    width: 40%; 
   font-style: initial;
-  font-size: 800;
-  font-weight: 300;
-  margin-top: -15%;
-  margin-bottom: 10%;
-      
+  align-items: center; 
+  justify-content: center;
+  display: grid;
+  margin-left: 10%; 
+  margin-top: 1%; 
+  font-weight: 500;
+  font-size: larger;
 }
 
-.button-section-two{
-    background-color: #003366;
-    border-radius: 1em;
-    width: 14em;
-    height: 4em;
-    margin-bottom: 10%;
-    justify-items: center;
-    align-items: center;
-    font-size: 100%;
-    font-weight: 100px;
-    font-style: initial;
-    color: #fff;
-    cursor: pointer;
-
-    margin-left: 70%;
-    margin-top: -20%;
-}
+.button-section-two {
+  background-color: #003366;
+  border-radius: 1em;
+  width: 14em;
+  height: 4em;
+  margin-top: -15%; 
+  justify-items: center;
+  align-items: center;
+  font-size: 100%;
+  font-weight: 700; 
+  font-style: initial;
+  color: #fff;
+  cursor: pointer;
+  padding-bottom: 2;
+  margin-left: 65%;
