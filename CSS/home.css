@@ -178,7 +178,7 @@ a {
   font-size: 100px; 
   font-style: italic;
   font-weight: 900; 
-  width: 100%;
+  width: 85%;
   margin-left: 10%;
   
 }
@@ -210,4 +210,11 @@ a {
   padding-bottom: 2;
   margin-top: -40%; 
   margin-left: 65%;
+}
+
+
+.section-four{
+  display: flex;
+  width: 80%;
+  align-items: flex-start;
 }
