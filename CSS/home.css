@@ -14,34 +14,47 @@ body {
 }
 
 h1 {
-    font-weight: 800;
-    font-style: italic;
-    font-size: 50px;
-    color: #fff;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 50px;
+  color: #fff;
+}
+.section-header {
+  /* margin-right: 20%; */
+  margin-left: 20px;
+  margin-top: -14%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 70%;
 }
 
 .h1-title {
-    margin-top: 10%;
-      font-weight: 800;
-      align-items: flex-start;
-      width: 80%;
-      display: flex;
-      justify-content: flex-start;
+  margin-top: 8%;
+  font-weight: 800;
+  align-items: flex-start;
+  align-content: space-around;
+  display: flex;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  width: 80%;
+  padding: 1%;
 }
-.p-title{
-    
-      align-items: flex-start;
-      width: 60%;
-      display: flex;
-      justify-content: flex-start;
-      font-size: 20px;
-      font-style: oblique;
-      font-weight: 100;
+.p-title {
+  margin-top: -10%;
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-style: initial;
+  font-weight: 50;
+  justify-items: end;
+  width: 60%;
 }
 p {
-    font-size: 20px;
+  font-size: 20px;
   color: #fff;
-  font-style: oblique;
+  font-style: initial;
   font-weight: 100;
 }
 
@@ -50,15 +63,16 @@ p {
   border-radius: 1em;
   min-width: 14em;
   min-height: 4em;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   justify-items: end;
   align-items: end;
-  margin-left: 70%;
-  margin-top: 1rem;
-  
+  margin-left: 105%;
+  margin-top: -25%;
+
+  display: block;
 
   font-weight: 900;
-  font-style: oblique;
+  font-style: initial;
   font-display: bold;
   font-size: 15px;
   color: #fff;
@@ -91,41 +105,111 @@ a {
   padding: 3%;
   margin-top: -25%;
   color: #003366;
-  font-style: oblique;
+  font-style: initial;
   font-weight: 300;
   font-size: 25px;
 }
 
-.section-header{
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: -14%;
+.section-one {
+  padding-left: 30px;
+  padding-right: 30px;
+  /* padding-top: -100%; */
 }
 
-.section-one{ 
-    padding-left: 30px;
-    padding-right: 30px;
-    /* padding-top: -100%; */
-    
-    
-} 
+.title-one {
+  width: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 90px;
+  padding-right: 5%;
+}
 
-.title-one{
-    width: 80px;
+.image-terra {
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: -40%;
+
+  margin-left: 50%;
+  width: 50%;
+  height: 50%;
+}
+.text-one {
+  width: 28%;
+  font-style: initial;
+  font-size: 800;
+  font-weight: 300;
+  margin-top: -15%;
+  margin-bottom: 10%;
+}
+
+.section-two {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 0px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+.image-section-two-1 {
+  width: 45%;
+  border: inset 5px rgba(255, 255, 255, 0.229);
+}
+.image-section-two-2 {
+  width: 48%;
+  margin-top: 3%;
+  margin-left: 2%;
+  border: inset 5px rgba(255, 255, 255, 0.229);
+}
+
+
+.section-three{
     display: flex;
-    justify-content: flex-start;
     align-items: flex-start;
-    font-size:70px;
-    padding-right: 5%;
+    justify-content: flex-start;
+    margin-top: 5px;
+    width: 100%;
+    
     
 }
+.title-section-two{
+    align-items: flex-start;
+    justify-content: start;
+    display: flex;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 700;
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: -50%;
+}
 
-.image-terra{
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-top: -40%;
+.paragrafo-section-two{
+   
+     width: 28%;
+  font-style: initial;
+  font-size: 800;
+  font-weight: 300;
+  margin-top: -15%;
+  margin-bottom: 10%;
+      
+}
 
-    margin-left: 50%;
-    width: 50%;
-    height: 50%;
+.button-section-two{
+    background-color: #003366;
+    border-radius: 1em;
+    width: 14em;
+    height: 4em;
+    margin-bottom: 10%;
+    justify-items: center;
+    align-items: center;
+    font-size: 100%;
+    font-weight: 100px;
+    font-style: initial;
+    color: #fff;
+    cursor: pointer;
+
+    margin-left: 70%;
+    margin-top: -20%;
 }
