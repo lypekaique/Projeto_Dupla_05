@@ -200,7 +200,6 @@ a {
   border-radius: 1em;
   width: 14em;
   height: 4em;
-  margin-top: -15%; 
   justify-items: center;
   align-items: center;
   font-size: 100%;
@@ -209,4 +208,6 @@ a {
   color: #fff;
   cursor: pointer;
   padding-bottom: 2;
+  margin-top: -40%; 
   margin-left: 65%;
+}
