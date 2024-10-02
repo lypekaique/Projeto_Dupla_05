@@ -135,10 +135,10 @@ a {
   height: 50%;
 }
 .text-one {
-  width: 28%;
+  width: 40%;
   font-style: initial;
-  font-size: 800;
-  font-weight: 300;
+  font-size: 400;
+  font-weight: 100px;
   margin-top: -10%;
   margin-bottom: 10%;
 }
@@ -184,15 +184,16 @@ a {
 }
 
 .paragrafo-section-two {
-    width: 40%; 
+  width: 60%; 
   font-style: initial;
-  align-items: center; 
-  justify-content: center;
+  align-items: start; 
+  justify-content: start;
   display: grid;
   margin-left: 10%; 
   margin-top: 1%; 
-  font-weight: 500;
-  font-size: larger;
+  font-weight: 50;
+  font-size: 50px;
+  /*  */
 }
 
 .button-section-two {
