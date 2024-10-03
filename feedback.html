@@ -4,78 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
+    <link rel="stylesheet" href="CSS/feedback.css">
 </head>
-<header>
-
-    <nav>
-        <div class="nav-header">
-          <div class="logo">
-            <img src="./IMG/logo.png" width="30" height="30" alt="Logo" />
-          </div>
-          <div class="nav-links">
-            <a href="./home.html">Home</a>
-            <a href="./feedback.html">Ajude-nos</a>
-            <a href="#">Contato</a>
-          </div>
-        </div>
-      </nav>
-</header>
 <body>
-    <label for="Nome" ></label>
-    <input type="text" placeholder="Nome" required> 
-    
-    <label for="Sobrenome"></label>
-    <input type="text" placeholder="Sobrenome" required> 
-    
-    <br>
-    <br>
-    
 
-    <label for=""></label>
-    <input type="text" placeholder="Email" required> 
-    
-    
-    <label for=""></label>
-    <input type="text" placeholder="Confirmal Email" required> 
-    
-    <br>
-    <br>
-    
-    <label for=""></label>
-    <input type="tel" placeholder="Celular"> 
-    
-    
-    <label for=""></label>
-    <input type="date" placeholder="Data de Nascimento" required> 
-    
-    <br>
-    <br>
-    
-    <label for=""></label>
-    <textarea name="feedback" id="feedback" rows="4" cols="50" required></textarea>
-    
-    <br>
-    <br>
-    
-    <input type="checkbox">
-    <label for="confirma-email">Aceito receber emails com atualização sobre o site</label>
-
-    <br>
-    <br>
-    
-    <input type="submit" value="Enviar">
-
-    <footer>
-      <nav>
-      <ul>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">WhatsApp</a></li>
-        <li><a href="#">Instagram</a></li>
-      </ul>
+<header>
+  <div class="header-container">
+    <nav>
+      <div class="logo">
+        <img src="./IMG/logo.png" width="100px" height="100px" alt="Logo" class="logotipo" />
+      </div>
+      <div class="pages-links">
+        <a href="./home.html" class="hover-link">Home</a>
+        <a href="./feedback.html" class="hover-link">Ajude-nos</a>
+        <a href="#">Contato</a>
+      </div>
     </nav>
-     
-    <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
-    </footer>
+  </div>
+</header>
+<div class="formula">
+    <div class="conte">
+    <div class="row1">
+        <div class="input-group">
+            <input type="text" placeholder="Nome" required>
+            <input type="text" placeholder="Sobrenome" required>
+        </div>
+
+        <div class="input-group">
+            <input type="text" placeholder="Email" required>
+            <input type="text" placeholder="Confirme o Email" required>
+        </div>
+
+        <div class="input-group">
+            <input type="tel" placeholder="Celular">
+            <input type="date" placeholder="Data de Nascimento" required>
+        </div>
+
+        <textarea name="feedback" id="feedback" rows="4" cols="50" placeholder="Deixe seu feedback" required></textarea>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="confirma-email">
+            <label for="confirma-email">Aceito receber emails com atualização sobre o site</label>
+        </div>
+
+        <input type="submit" value="Enviar">
+    </div>
+    </div>
+</div>
+
     
     
     
