@@ -41,7 +41,7 @@ nav {
   text-decoration: underline;
 }
 
-.Linha-container {
+.linha-container {
   position: relative;
   display: flex;
   flex-direction: column; 
@@ -53,7 +53,7 @@ nav {
 }
 
 
-.Linha-container::before {
+.linha-container::before {
   content: '';
   position: absolute;
   top: 0;
