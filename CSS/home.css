@@ -1,16 +1,16 @@
 :root {
-  --color-text-primary: #fff;
-
+  
+  display: flex;
+  padding: 0% 5% 0% 5% ;
   background-color: #fff;
 }
 
 body {
-  grid: 70%;
+  display: flex;
+  flex-direction: column;
   background-color: #0c2517;
-
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 0%;
+  justify-content: center;
+  align-content: center;
 }
 
 h1 {
@@ -19,11 +19,28 @@ h1 {
   font-size: 50px;
   color: #fff;
 }
+.header-container {
+  background-color: #2e8b57;
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(6, auto);
+  justify-content: row;
+  align-content: row;
+}
+.nav {
+ display: flex;
+flex-direction: row;
+ justify-content: space-between;
+ width: 50%;
+}
 .section-header {
   /* margin-right: 20%; */
+  display: flex;
   margin-left: 20px;
   margin-top: -14%;
-  display: flex;
   align-items: flex-start;
   flex-direction: column;
   width: 70%;
@@ -78,18 +95,8 @@ p {
   color: #fff;
   cursor: pointer;
 }
-.header-container {
-  background-color: #2e8b57;
-  height: 100%;
-  width: 100%;
-  margin-right: 0%;
-  margin-left: 0%;
-  margin-top: 0%;
-}
-.nav {
-  width: 70%;
-  height: 70px;
-}
+
+
 .logotipo {
   height: 20%;
   width: 20%;
@@ -135,10 +142,10 @@ a {
   height: 50%;
 }
 .text-one {
-  width: 28%;
+  width: 40%;
   font-style: initial;
-  font-size: 800;
-  font-weight: 300;
+  font-size: 400;
+  font-weight: 100px;
   margin-top: -10%;
   margin-bottom: 10%;
 }
@@ -175,23 +182,25 @@ a {
   align-items: flex-start;
   justify-content: start;
   display: flex;
-  font-size: 100px;
+  font-size: 100px; 
   font-style: italic;
-  font-weight: 900;
+  font-weight: 900; 
   width: 85%;
   margin-left: 10%;
+  
 }
 
 .paragrafo-section-two {
-  width: 40%;
+  width: 60%; 
   font-style: initial;
-  align-items: center;
-  justify-content: center;
+  align-items: start; 
+  justify-content: start;
   display: grid;
-  margin-left: 10%;
-  margin-top: 1%;
-  font-weight: 500;
-  font-size: larger;
+  margin-left: 10%; 
+  margin-top: 1%; 
+  font-weight: 50;
+  font-size: 50px;
+  /*  */
 }
 
 .button-section-two {
@@ -202,50 +211,57 @@ a {
   justify-items: center;
   align-items: center;
   font-size: 100%;
-  font-weight: 700;
+  font-weight: 700; 
   font-style: initial;
   color: #fff;
   cursor: pointer;
   padding-bottom: 2;
-  margin-top: -40%;
+  margin-top: -40%; 
   margin-left: 65%;
 }
+/* seção 4 tem duas divs que dividem o layout. Fica melhor para organização */
 
-.section-four {
-  display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
-  padding-top: 20%;
-}
-
-.tartaruga-section-four {
-  grid-template-columns: max-content;
-  width: 60vh;
-  margin-top: -9%;
-}
-
-.title-section-four {
-  grid-template-columns: max-content;
-  grid-row: initial;
-  margin-left: 450%;
-  width: 100%;
-  margin-top: -10%;
-  font-size: 70px;
-  font-style: italic;
-  font-weight: 900;
-}
-
-.tartaruga-two-section-four {
-  width: 50px;
-}
-
-.paragrafo-section-four {
-  margin-left: 360%;
-  margin-top: 370%;
-  width: 100%;
+.section-four{
   display: flex;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   align-items: flex-start;
+  align-content: flex-start;
+  /* coloquei o flex-direction: column para alinhar os itens um abaixo do outro */
+  flex-direction: column;
+}
+.section-four-div{
+  display: inline-flex;
   justify-content: flex-start;
-  font-style: initial;
-  font-weight: 500;
-  font-size: 20px;
+  align-items: flex-start;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  justify-items: flex-start;
+}
+
+.image-four-1{
+  width: 550px;
+
+}
+
+.title-section-four{
+  width: 50%;
+  margin-left: 5%;
+  font-size: 104px;
+  font-weight: bold;
+  text-align: justify;
+
+}
+.section-four-div-two{
+  padding-top: 2%;
+  
+
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  justify-items: flex-end;
+ 
 }
